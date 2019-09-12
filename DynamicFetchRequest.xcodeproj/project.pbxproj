@@ -16,6 +16,7 @@
 		DE64B06F2329EDED007B1C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64B06D2329EDED007B1C0A /* LaunchScreen.storyboard */; };
 		DE64B0772329EE7C007B1C0A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B0762329EE7C007B1C0A /* TreeNode.swift */; };
 		DE64B0792329EF27007B1C0A /* TreeNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B0782329EF27007B1C0A /* TreeNodeView.swift */; };
+		DE64B07B2329F5A9007B1C0A /* TreeNodeWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B07A2329F5A9007B1C0A /* TreeNodeWrapperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DE64B0702329EDED007B1C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE64B0762329EE7C007B1C0A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		DE64B0782329EF27007B1C0A /* TreeNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeView.swift; sourceTree = "<group>"; };
+		DE64B07A2329F5A9007B1C0A /* TreeNodeWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeWrapperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				DE64B06A2329EDED007B1C0A /* Preview Content */,
 				DE64B0762329EE7C007B1C0A /* TreeNode.swift */,
 				DE64B0782329EF27007B1C0A /* TreeNodeView.swift */,
+				DE64B07A2329F5A9007B1C0A /* TreeNodeWrapperView.swift */,
 			);
 			path = DynamicFetchRequest;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE64B07B2329F5A9007B1C0A /* TreeNodeWrapperView.swift in Sources */,
 				DE64B0652329EDEC007B1C0A /* DynamicFetchRequest.xcdatamodeld in Sources */,
 				DE64B0602329EDEC007B1C0A /* AppDelegate.swift in Sources */,
 				DE64B0792329EF27007B1C0A /* TreeNodeView.swift in Sources */,

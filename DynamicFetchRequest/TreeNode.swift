@@ -15,9 +15,10 @@ class TreeNode: NSManagedObject {
 }
 
 extension TreeNode {
-    static func getNodes() -> NSFetchRequest<TreeNode> {
+    static func getNodes(root: TreeNode?) -> NSFetchRequest<TreeNode> {
         let request = TreeNode.fetchRequest() as! NSFetchRequest<TreeNode>
         request.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]
+        request.predicate = NSPredicate(format: "parent = %@", root ?? NSNull())
         return request
     }
 }
