@@ -14,6 +14,8 @@
 		DE64B0692329EDED007B1C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE64B0682329EDED007B1C0A /* Assets.xcassets */; };
 		DE64B06C2329EDED007B1C0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE64B06B2329EDED007B1C0A /* Preview Assets.xcassets */; };
 		DE64B06F2329EDED007B1C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64B06D2329EDED007B1C0A /* LaunchScreen.storyboard */; };
+		DE64B0772329EE7C007B1C0A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B0762329EE7C007B1C0A /* TreeNode.swift */; };
+		DE64B0792329EF27007B1C0A /* TreeNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B0782329EF27007B1C0A /* TreeNodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DE64B06B2329EDED007B1C0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE64B06E2329EDED007B1C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE64B0702329EDED007B1C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE64B0762329EE7C007B1C0A /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		DE64B0782329EF27007B1C0A /* TreeNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				DE64B0702329EDED007B1C0A /* Info.plist */,
 				DE64B0632329EDEC007B1C0A /* DynamicFetchRequest.xcdatamodeld */,
 				DE64B06A2329EDED007B1C0A /* Preview Content */,
+				DE64B0762329EE7C007B1C0A /* TreeNode.swift */,
+				DE64B0782329EF27007B1C0A /* TreeNodeView.swift */,
 			);
 			path = DynamicFetchRequest;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			files = (
 				DE64B0652329EDEC007B1C0A /* DynamicFetchRequest.xcdatamodeld in Sources */,
 				DE64B0602329EDEC007B1C0A /* AppDelegate.swift in Sources */,
+				DE64B0792329EF27007B1C0A /* TreeNodeView.swift in Sources */,
 				DE64B0672329EDEC007B1C0A /* ContentView.swift in Sources */,
+				DE64B0772329EE7C007B1C0A /* TreeNode.swift in Sources */,
 				DE64B0622329EDEC007B1C0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
