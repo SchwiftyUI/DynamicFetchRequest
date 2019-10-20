@@ -28,9 +28,7 @@ struct TreeNodeView: View {
         VStack {
             List {
                 ForEach(fetchedResults, id: \.self) { node in
-                    NavigationLink(destination: TreeNodeWrapperView(root: node)) {
-                        Text("\(node.name)")
-                    }
+                    self.getNavigationLink(node: node)
                 }
                 .onDelete(perform: deleteItem)
             }
@@ -39,6 +37,14 @@ struct TreeNodeView: View {
             }
         }
         .navigationBarItems(trailing: EditButton())
+    }
+    
+    func getNavigationLink(node: TreeNode) -> some View {
+        let allChildren = node.children?.allObjects ?? []
+        
+        return NavigationLink(destination: TreeNodeWrapperView(root: node)) {
+            Text("\(node.name) (\(allChildren.count) subnode(s))")
+        }
     }
     
     func deleteItem(indexSet: IndexSet) {
