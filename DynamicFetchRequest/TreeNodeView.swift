@@ -26,6 +26,11 @@ struct TreeNodeView: View {
     
     var body: some View {
         VStack {
+            if self.root != nil {
+                NavigationLink(destination: EditNode(node: self.root!)) {
+                    Text("Edit Node Name")
+                }
+            }
             List {
                 ForEach(fetchedResults, id: \.self) { node in
                     NavigationLink(destination: TreeNodeWrapperView(root: node)) {

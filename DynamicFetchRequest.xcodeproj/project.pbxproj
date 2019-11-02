@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375E3A4A236E11090017B1F4 /* EditNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375E3A49236E11090017B1F4 /* EditNode.swift */; };
 		DE64B0602329EDEC007B1C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B05F2329EDEC007B1C0A /* AppDelegate.swift */; };
 		DE64B0622329EDEC007B1C0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64B0612329EDEC007B1C0A /* SceneDelegate.swift */; };
 		DE64B0652329EDEC007B1C0A /* DynamicFetchRequest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE64B0632329EDEC007B1C0A /* DynamicFetchRequest.xcdatamodeld */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375E3A49236E11090017B1F4 /* EditNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNode.swift; sourceTree = "<group>"; };
 		DE64B05C2329EDEC007B1C0A /* DynamicFetchRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicFetchRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE64B05F2329EDEC007B1C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE64B0612329EDEC007B1C0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				DE64B0762329EE7C007B1C0A /* TreeNode.swift */,
 				DE64B0782329EF27007B1C0A /* TreeNodeView.swift */,
 				DE64B07A2329F5A9007B1C0A /* TreeNodeWrapperView.swift */,
+				375E3A49236E11090017B1F4 /* EditNode.swift */,
 			);
 			path = DynamicFetchRequest;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				DE64B0602329EDEC007B1C0A /* AppDelegate.swift in Sources */,
 				DE64B0792329EF27007B1C0A /* TreeNodeView.swift in Sources */,
 				DE64B0672329EDEC007B1C0A /* ContentView.swift in Sources */,
+				375E3A4A236E11090017B1F4 /* EditNode.swift in Sources */,
 				DE64B0772329EE7C007B1C0A /* TreeNode.swift in Sources */,
 				DE64B0622329EDEC007B1C0A /* SceneDelegate.swift in Sources */,
 			);
